@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="button.css" />
+    <link rel="stylesheet" href="loading.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="./ShareTabs.png" width="25" id="logo" /> ShareTabs
+    </header>
+    <button id="history">
+      History&nbsp;<i class="material-icons">history</i>
+    </button>
+    <div id="text-box">
+      <input type="text" id="name" name="name" autocomplete="off" />
+      <p id="count" style="font-size: 11px; padding: 0; margin: 0">0/20</p>
+    </div>
+    <button id="current-window">
+      THIS window <i class="material-icons">web_asset</i>
+    </button>
+    <button id="all-tabs">
+      ALL windows<i class="material-icons">table_view</i>
+    </button>
+    <div class="lds-ellipsis">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <script src="popup.js"></script>
+    <div id="status">Copied to Clipboard</div>
+  </body>
+</html>
