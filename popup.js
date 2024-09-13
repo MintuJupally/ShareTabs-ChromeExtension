@@ -56,7 +56,7 @@ document.getElementById("all-tabs").addEventListener("click", () => {
 
     loader.style.display = "flex";
     // const url = "http://localhost:3000";
-    const url = "https://sharetabs.herokuapp.com";
+    const url = "https://sharetabs.app";
     await fetch(url, {
       method: "POST",
       mode: "cors",
@@ -109,7 +109,7 @@ document
 
       loader.style.display = "flex";
       // const url = "http://localhost:3000";
-      const url = "https://sharetabs.herokuapp.com";
+      const url = "https://sharetabs.app";
       await fetch(url, {
         method: "POST",
         mode: "cors",

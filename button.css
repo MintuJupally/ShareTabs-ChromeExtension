@@ -97,11 +97,12 @@ button:hover:disabled {
 
 #history {
   overflow: hidden;
-  margin: 0px 0px 0px auto;
+  margin: 10px 0px 10px auto;
   letter-spacing: 0.8px;
   cursor: pointer;
   border: 0px;
-  height: 36px;
+  height: 30px;
+  font-weight: 500;
   width: 36px;
   border-radius: 18px;
   background-color: white;
@@ -114,7 +115,7 @@ button:hover:disabled {
 #history:hover {
   background-color: rgb(207, 177, 8);
   color: white;
-  width: 90px;
+  width: 93px;
 }
 
 @keyframes reveal {
